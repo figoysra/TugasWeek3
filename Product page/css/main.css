@@ -25,13 +25,14 @@ aside .header h1{
     margin: 0px;
 }
 aside .header p{
+    margin: 10px;
     font-family: poppins;
     width: 65%;
     text-align: center;
     font-size: 13px;
 }
 aside .content{
-    margin-top: 7px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,16 +50,18 @@ aside .content .promo .card .image img{
     height: auto;
 }
 aside .content .promo .card .title{
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 20px 10px;
     font-size: 12px;
+}
+aside .content .promo .card .title strong{
+    font-size: 13px;
+    font-weight: 800;
+    font-family: rubikbold;
 }
 aside .content .promo .card .title p{
     margin: 0px;
     font-weight: 400;
+    font-size: 11px;
 }
 aside .content .action .btn{
     margin-top: 20px;
@@ -74,13 +77,18 @@ aside .content .action .btn{
 aside .content .action .btn:hover{
     background-color: #3f2619;
 }
-aside .terms{
-    margin: 50px;
+aside .term{
+    margin: 60px;
     font-family: rubik;
-    font-size: 12px;
 }
-aside .terms ul{
-    padding: 0px;
+aside .term .titleterm{
+    font-weight: 800;
+    font-size: 14px;
+}
+aside .term .listterm ul {
+    margin-top: 0px;
+    font-size: 12px;
+    padding-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -88,7 +96,7 @@ aside .terms ul{
     list-style-type: decimal;
 }
 
-aside .terms li{
+aside .term li{
     margin-top: 5px;
 }
 .green{
@@ -113,11 +121,14 @@ aside .terms li{
     font-size: 17px;
     color: #9F9F9F;
     cursor: pointer;
+    padding: 2px;
+    border-bottom: 3px solid  transparent;
+    transition-duration: 0.5s;
 }
 .content .navbar li:hover{
     color: #6A4029;
     font-weight: 700;
-    text-decoration-line: underline;
+    border-bottom: 3px solid #6A4029;
 }
 .content .menuproduk .row {
     display: flex;
@@ -134,8 +145,11 @@ aside .terms li{
     text-align: center;
     border-radius: 30px;
     cursor: pointer;
+    transition-duration: 0.4s;
+    border: 2px solid transparent;
 }
 .content .menuproduk .row .product:hover{
+    transform: scale(1.1);
     border: 2px solid #6A4029;
 }
 
@@ -150,6 +164,25 @@ aside .terms li{
     border-radius: 100px;
     border: 1px solid #CCCCCC;
 }
+
+.content .menuproduk .row .product .notif{
+    position: absolute;    
+    left: 100px;
+    top: -10px;
+    
+}
+.content .menuproduk .row .product .notif p{
+    background-color: white;
+    border-radius: 10px;
+    font-family: poppinsbold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 2px 5px;
+    box-shadow: 1px 1px 10px #c5c3c3;
+}
+
 
 .content .menuproduk .row .product h1 {
     font-family: poppinsbold;
@@ -168,8 +201,9 @@ aside .terms li{
 }
 
 .content .info{
+    display: flex;
     margin-top: 20px;
-    margin-left: 170px;
+    margin-left: 150px;
     color: #6A4029;
     font-size: 14px;
     font-weight: 200;

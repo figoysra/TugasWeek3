@@ -51,18 +51,21 @@ section .content .navbar {
     align-items: center;
 }
 
-h1 {
+a {
+    color: black;
     font-size: 20px;
     margin-left: 14px;
+    font-weight: 800;
+    text-decoration: none ;
 }
 
-section .content .navbar .login{
+section .content .navbar .signup{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 50%;
 }
-section .content .navbar .login p{
+section .content .navbar .signup a{
     background-color: #ffba33;
     margin: 15px;
     font-size: 16px;
@@ -70,6 +73,11 @@ section .content .navbar .login p{
     padding: 10px 50px;
     color: #6A4029;
     border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+}
+section .content .navbar .signup a:hover{
+    background-color: #FFA900;
 }
 
 .content .form {
@@ -77,17 +85,17 @@ section .content .navbar .login p{
     flex-direction: column;
     align-items: center;
 }
-.content .form h2 {
+.content .form h1 {
     font-family: rubikbold ;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bolder;
     line-height: 41px;
     color: #6A4029;
-    margin-bottom: 20px;
+    margin: 50px;
 }
 
 .content .form form {
-    padding-top: 40px;
+    margin-top: 20px;
 }
 
 .content .form form label {
@@ -104,8 +112,16 @@ section .content .navbar .login p{
     padding: 15px 20px;
     border-radius: 10px;
 }
+.content .form form p{
+    font-size: 14px;
+    color: #6A4029;
+    font-weight: 700;
+    margin: 0px;  
+    text-decoration: underline;
+    cursor: pointer;
+}
 
-.content .form .signup {
+.content .form .signin {
     margin-top: 30px;
     margin-bottom: 8px;
     border: none;
@@ -116,6 +132,10 @@ section .content .navbar .login p{
     font-weight: bold;
     box-shadow: 5px 5px 10px #CCCCCC;
     background-color: #ffba33;
+    cursor: pointer;
+}
+.content .form .signin:hover{
+    background-color: #FFA900;
 }
 .content .form .btngoogle {
     padding: 15px 166px;
@@ -127,6 +147,10 @@ section .content .navbar .login p{
     border-radius: 10px;
     background-color: white;
     box-shadow: 1px 5px 10px #CCCCCC;
+    cursor: pointer;
+}
+.content .form .btngoogle:hover{
+    background-color: #dbdbdb;
 }
 
 .content .form .btngoogle svg {

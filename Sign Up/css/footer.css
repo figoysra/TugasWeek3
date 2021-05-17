@@ -17,13 +17,13 @@ footer .information .text {
     color: #4F5665;
 }
 
-footer .information .logo{
+footer .information .logo {
     width: 50%;
     display: flex;
     align-items: center;
 }
 
-footer .information .logo h1{
+footer .information .logo h1 {
     font-size: 20px;
     margin-left: 14px;
 }

@@ -1,12 +1,12 @@
 main .landingpage{
     width: 100%;
     height : 460px;
-    /* border: 1px solid green; */
     background-image: url('https://s3-alpha-sig.figma.com/img/57c5/d504/de26c540ca74fd712a0e636cd4cdc0fb?Expires=1621814400&Signature=fZMx8FNLoRZvg-DGi9MFekxJyW6PCk-QiA2kBDcOK0~rrYtN6I8o9bMEtPda5MhyhUbon5CnbzDqD41tbQtb50EpJeg9-WNYEYn1dzlnKsxeZoElib3GuVm76rw6wM9AMkZmEqnagWVKLzqeL8nnWFq8mZNX2uRZUix2QfaUj~Xtz6p3foXLfZreBOBOycrDjPVW--dY41JKos5er0jqgTKGOU0iz0tjVn4pTdVLy9Ev4~ZvSjvBQQ8zHFVZ4~P~WprtbgN~KzR3nuakXS8jOjbSa6y3mXPZmLJ4eav5YstgtWIdgtPQPqLdikBKuOPl63d8aslXcPS7cIls82feyA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
     background-position: center;
     background-size: cover;
     margin: 0px;
     position: relative;
+    font-family: rubikbold;
 }
 main .landingpage .search {
     display: flex;
@@ -28,16 +28,16 @@ main .landingpage .text{
 
 main .landingpage .text h1{
     margin: 0px;
-    width: 550px;
+    width: 600px;
     height: 120px;
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 700;
 }
 main .landingpage .text p{
     width: 510px;
     margin-top: 15px;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 200;
     text-align: justify;
 }
 
@@ -52,11 +52,18 @@ main .landingpage button{
     font-weight: bold;
     font-size: 15px;
     word-spacing: -2px;
+    cursor: pointer;
 }
+main .landingpage button:hover{
+    background-color: #FFA900;
+    color: white;
+}
+
 main .info{
     width: 100%;
     position: absolute;
     bottom: 100px;
+    font-family: rubik;
 }
 main .infomenu{
     background-color: #ffffff;
@@ -101,6 +108,7 @@ main .infomenu .staff .title p{
 main .productbenefit{
     margin: 120px 120px;
     display: flex;
+    font-family: rubik;
 }
 main .productbenefit .image{
     width: 50%;

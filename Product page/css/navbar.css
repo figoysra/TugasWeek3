@@ -18,6 +18,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: rubik;
 }
 
 .container {
@@ -25,7 +26,6 @@ body {
     background-color: white;
     box-shadow: 1px 1px 10px #CCCCCC;
     display: flex;
-    font-family: rubik;
 }
 
 .container .logo {
@@ -52,46 +52,84 @@ body {
 
 }
 
-.primary-menu .menu li {
+.primary-menu .menu li{
     margin: 15px;
     font-size: 13px;
     font-weight: 400;
-    color: #4f5665;
     cursor: pointer;
+    text-decoration: none;
+}
+.primary-menu .menu li a{
+    text-decoration: none;
+    color: #4f5665;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
 }
 
-.primary-menu .menu li:hover {
+.primary-menu .menu a:hover {
     color: #6A4029;
     font-weight: 700;
+    border-bottom: 2px solid #6A4029;
 }
 
 .secondary-menu {
     width: 30%;
-}
-
-.secondary-menu .menu {
     display: flex;
-    list-style-type: none;
-}
-
-.secondary-menu .menu li {
-    margin: 15px;
-    font-size: 13px;
+    justify-content: flex-start;
+    align-items: center;
     cursor: pointer;
 }
 
-.secondary-menu .menu li a {
-    text-decoration: none;
+.secondary-menu input {
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #4F5665;
+    padding: 5px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.secondary-menu .chat {
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.secondary-menu .chat .notif {
+    position: absolute;
+    bottom: 8px;
+    right: 13px;
+}
+.secondary-menu .chat .notif p{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-family: rubik;
     font-weight: 600;
+    background-color: #6A4029;
+    border-radius: 30px;
+    color: white;
 }
 
-.login {
-    color: #000;
+.secondary-menu .chat img {
+    width: 22px;
+    height: 23px;
 }
 
-.signup {
-    background-color: #ffba33;
-    padding: 10px 25px;
-    color: #6A4029;
-    border-radius: 100px;
+.secondary-menu .image {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.secondary-menu .image img {
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
 }
