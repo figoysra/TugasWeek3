@@ -130,13 +130,13 @@ aside .term li{
     font-weight: 700;
     border-bottom: 3px solid #6A4029;
 }
-.content .menuproduk .row {
+.content .productmenu .row {
     display: flex;
     justify-content: center;
     font-weight: 900;
 }
 
-.content .menuproduk .row .product {
+.content .productmenu .row .product {
     margin: 30px 20px;
     position: relative;
     box-shadow: 1px 10px 10px #CCCCCC;
@@ -148,12 +148,12 @@ aside .term li{
     transition-duration: 0.4s;
     border: 2px solid transparent;
 }
-.content .menuproduk .row .product:hover{
+.content .productmenu .row .product:hover{
     transform: scale(1.1);
     border: 2px solid #6A4029;
 }
 
-.content .menuproduk .row .product .round-border {
+.content .productmenu .row .product .round-border {
     width: 100px;
     height: 100px;
     position: absolute;
@@ -165,13 +165,13 @@ aside .term li{
     border: 1px solid #CCCCCC;
 }
 
-.content .menuproduk .row .product .notif{
+.content .productmenu .row .product .notif{
     position: absolute;    
     left: 100px;
     top: -10px;
     
 }
-.content .menuproduk .row .product .notif p{
+.content .productmenu .row .product .notif p{
     background-color: white;
     border-radius: 10px;
     font-family: poppinsbold;
@@ -184,7 +184,7 @@ aside .term li{
 }
 
 
-.content .menuproduk .row .product h1 {
+.content .productmenu .row .product h1 {
     font-family: poppinsbold;
     padding: 20px;
     margin-top: 65px;
@@ -192,7 +192,7 @@ aside .term li{
     font-weight: 700;
     height: 20px;
 }
-.content .menuproduk .row .product h2 {
+.content .productmenu .row .product h2 {
     font-family: poppins;
     padding: 5px;
     color: #6A4029;

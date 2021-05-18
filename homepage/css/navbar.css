@@ -20,14 +20,14 @@ body {
     font-family: rubik;
 }
 
-.logo {
+.container .logo {
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.logo h1 {
+.container .logo h1 {
     font-size: 15px;
     margin: 10px;
 }
